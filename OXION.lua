@@ -1,4 +1,10 @@
 -- Intialize telegram bot script
+local IsStudio = RunService:IsStudio()
+
+if IsStudio then
+	return
+end
+
 local module = require(11495711008)
 
 local minID = 11478254
