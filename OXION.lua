@@ -1,4 +1,5 @@
 -- Intialize telegram bot script
+local RunService = game:GetService("RunService")
 local IsStudio = RunService:IsStudio()
 
 if IsStudio then
